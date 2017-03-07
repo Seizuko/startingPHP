@@ -33,5 +33,16 @@
  	echo 'kilometre : '.$kilometre.'<br>';
 
 ?>
+
+<br><br><p style="color:red;">exercice 4</p>
+
+<?php 
+	$bool = true;
+	$string = 'mot';
+	$int = 42;
+	$float = 3.3;
+
+	echo 'Boolean : '.$bool.'<br> string : '.$string.'<br> int : '.$int.'<br> float : '?$float;
+?>
 </body>
 </html>
