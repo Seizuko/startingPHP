@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <p style="color:red;">exercice 1</p>
@@ -10,7 +11,7 @@
 	echo $nom;
 ?>
 
-<br><br><p style="color:red;">exercice 2</p>
+<br><br><p>exercice 2</p>
 
 <?php
 	$nom = 'jean';
@@ -20,7 +21,7 @@
 	echo 'nom : '.$nom.'<br> prenom : '.$prenom.' <br>age : '.$age;
 ?>
 
-<br><br><p style="color:red;">exercice 3</p>
+<br><br><p>exercice 3</p>
 
 <?php 
  $kilometre = 1;
@@ -31,10 +32,9 @@
 
  $kilometre = 125;
  	echo 'kilometre : '.$kilometre.'<br>';
-
 ?>
 
-<br><br><p style="color:red;">exercice 4</p>
+<br><br><p>exercice 4</p>
 
 <?php 
 	$bool = true;
@@ -42,7 +42,18 @@
 	$int = 42;
 	$float = 3.3;
 
-	echo 'Boolean : '.$bool.'<br> string : '.$string.'<br> int : '.$int.'<br> float : '?$float;
+	echo 'Boolean : '.$bool.'<br> string : '.$string.'<br> int : '.$int.'<br> float : '.$float;
 ?>
+
+<br><br><p>exercice 5</p>
+
+<?php
+	$entier = (int)null;
+		echo 'int vaut : '.$entier;
+	$entier = 10;
+		echo '<br>maintenant int :'.$entier;
+?>
+
+<br><br><p>exercice 6</p>
 </body>
 </html>
