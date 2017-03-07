@@ -28,6 +28,35 @@
 				}				
 			?>
 		</div>
+		<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2" id="border">
+			<p>exercice 2</p>
+			<?php 
+				$iseasy = true;
+					if ($iseasy=true) {
+						echo 'C\'est facile !';
+					}else{
+						echo 'C\'est difficil !';
+					}				
+			?>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2" id="border">
+			<p>exercice 3</p>
+			<?php 
+				$age = 12;
+				$genre = 'homme';
+					if ($genre == 'homme') {
+						echo 'Vous êtes un homme';
+					}else if($genre == 'femme'){
+						echo 'Vous êtes une femme';
+					}
+
+					if ($age>18) {
+					echo ' et vous êtes majeur';
+				}else{
+					echo ' et vous êtes mineur';
+				}				
+			?>
+		</div>
 
 
 
