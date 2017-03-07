@@ -55,5 +55,10 @@
 ?>
 
 <br><br><p>exercice 6</p>
+
+<?php
+	$Nom = 'jean';
+		echo 'Bonjour '.$Nom.', comment vas-tu ?';
+?>
 </body>
 </html>
