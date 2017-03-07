@@ -16,14 +16,14 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-xs-2 col-ls-2 col-md-2 col-lg-2" id="border">
+		<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2" id="border">
 			<p>exercice 1</p>
 			<?php 
-				$nom = 'jean';
-				echo $nom;
+				$nom = 'jeanne';
+				echo 'nom : '.$nom;
 			?>
 		</div>
-		<div class="col-xs-2 col-ls-2 col-md-2 col-lg-2" id="border">
+		<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2" id="border">
 			<p>exercice 2</p>
 
 			<?php
@@ -34,7 +34,7 @@
 				echo 'nom : '.$nom.'<br> prenom : '.$prenom.' <br>age : '.$age;
 			?>
 		</div>
-		<div class="col-xs-2 col-ls-2 col-md-2 col-lg-2" id="border">
+		<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2" id="border">
 			<p>exercice 3</p>
 
 			<?php 
@@ -48,7 +48,7 @@
 			 	echo 'kilometre : '.$kilometre.'<br>';
 			?>
 		</div>
-		<div class="col-xs-2 col-ls-2 col-md-2 col-lg-2" id="border">
+		<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2" id="border">
 			<p>exercice 4</p>
 
 			<?php 
@@ -60,7 +60,7 @@
 				echo 'Boolean : '.$bool.'<br> string : '.$string.'<br> int : '.$int.'<br> float : '.$float;
 			?>
 		</div>
-		<div class="col-xs-2 col-ls-2 col-md-2 col-lg-2" id="border">
+		<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2" id="border">
 			<p>exercice 5</p>
 
 			<?php
@@ -70,12 +70,34 @@
 					echo '<br>maintenant int :'.$entier;
 			?>
 		</div>
-		<div class="col-xs-2 col-ls-2 col-md-2 col-lg-2" id="border">
+		<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2" id="border">
 			<p>exercice 6</p>
 
 			<?php
-				$Nom = 'jean';
+				$Nom = 'freud';
 					echo 'Bonjour '.$Nom.', comment vas-tu ?';
+			?>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2" id="border">
+			<p>exercice 7</p>
+
+			<?php
+				$Nom = 'Robert';
+				$prenom = 'Durotar';
+				$age = '12';
+
+				echo 'Bonjour '.$Nom.' '.$prenom.', tu as '.$age.' ans.';
+			?>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2" id="border">
+			<p>exercice 8</p>
+
+			<?php
+				$calcul = 3+4;
+				$calcul2 = 5*20;
+				$calcul3 = 45/5;
+
+				echo '3 + 4 = '.$calcul.'<br> 5 x 20 = '.$calcul2.'<br> 45 / 5 = '.$calcul3;
 			?>
 		</div>
 </body>
