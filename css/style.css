@@ -8,23 +8,27 @@ p {
   font-weight: bold; }
 
 #border {
-  background-color: #d1af94;
+  background-color: rgba(209, 175, 148, 0.5);
   height: 210px;
   border: 5px solid #ef562d;
   padding: 10px;
   font-family: orbitron;
-  margin-top: 5px; }
+  margin-top: 5px;
+  overflow: hidden; }
 
 #border:hover {
   transition-duration: .5s;
   border: 10px solid #d1af94;
-  background-color: #ef562d; }
+  background-color: rgba(239, 86, 45, 0.5);
+  color: white; }
 
 #border:hover p {
   background-color: #d1af94; }
 
 body {
-  background-color: #efcec5; }
+  background-image: url(../img/fond.jpg);
+  background-size: 100%;
+  background-attachment: fixed; }
 
 a {
   position: relative;

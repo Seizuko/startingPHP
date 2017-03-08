@@ -83,10 +83,34 @@
 		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="border">
 				<p>exercice 6</p>
 				<?php 
-				
+				// <3 la boucle while, tantpis pour le tant que ! //
 					$initiale = 20;
 						while ($initiale > 0) {
 							echo $initiale.' : C\'est presque bon. ';
+							$initiale=$initiale-1;
+							
+						}				
+				?>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="border">
+				<p>exercice 7</p>
+				<?php 
+				// <3 la boucle while, tantpis pour le tant que ! //
+					$initiale = 0;
+						while ($initiale < 100) {
+							echo 'On tient le bambou. ';
+							$initiale=$initiale+15;
+							
+						}				
+				?>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="border">
+				<p>exercice 8 (Attention il depasse !)</p>
+				<?php 
+				// <3 la boucle while, tantpis pour le tant que ! //
+					$initiale = 200;
+						while ($initiale > 0) {
+							echo 'Enfin ';
 							$initiale=$initiale-1;
 							
 						}				
