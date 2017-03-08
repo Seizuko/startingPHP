@@ -31,9 +31,24 @@ body {
   background-attachment: fixed; }
 
 a {
-  position: relative;
-  background-color: darkorange;
-  padding: 10px 10px 10px 10px; }
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgba(239, 86, 45, 0.5);
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  font-family: orbitron; }
+
+a:hover {
+  text-decoration: none;
+  background-color: #ef562d;
+  color: black;
+  transition-duration: .5s; }
+
+.button {
+  margin-top: 20%;
+  margin-left: 18%; }
 
 @media screen and (max-width: 768px) {
   #border {

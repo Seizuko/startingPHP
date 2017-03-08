@@ -16,10 +16,12 @@
 </head>
 <body>
 
+<div class="button">
 <a href="variable.php">exo 1 (variable.php)</a>
 <a href="condition.php">exo 2 (condition.php)</a>
 <a href="boucle.php">exo 3 (boucle.php)</a>
-
+<a href="fonction.php">exo 4 (fonction.php)</a>
+</div>
 
 </body>
 </html>
