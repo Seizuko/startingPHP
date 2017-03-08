@@ -55,6 +55,40 @@
 				echo caractere($true.' '.$false);
 			?>
 		</div>
+		<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2" id="border">
+			<p>exercice 4</p>
+			<?php 
+				$true = 6;
+				$false = 5;
+				function caractere3($true,$false){
+					if ($true > $false) {
+						echo 'Le premier nombre est plus grand';
+						return 'Le premier nombre est plus grand';						
+					}else if ($true < $false) {
+						echo 'Le deuxieme nombre est plus grand';
+						return 'Le deuxieme nombre est plus grand';						
+					}else{
+						return 'les deux sont egaux';
+						echo 'les deux sont égaux';
+					}
+				}
+
+				//bonus //
+				if ($true > $false) {
+						echo 'Le premier nombre est plus grand';
+						return 'Le premier nombre est plus grand';						
+					}else if ($true < $false) {
+						echo 'Le deuxieme nombre est plus grand';
+						return 'Le deuxieme nombre est plus grand';						
+					}else{
+						return 'les deux sont egaux';
+						echo 'les deux sont égaux';
+					}
+			?>
+		</div>
+		
+		
+		
 		
 		
 	</div>
